@@ -1,26 +1,31 @@
 header {
-  border: black 2px inset;
-  background-color: #456789;
-  width: 80%;
-  margin: 0
-  color: white;
-  text-align: center;
-  padding: 20px 50px;
+    border: black 2px inset;
+    background-color: #456789;
+    width: 80%;
+    margin: 0
+    color: white;
+    text-align: center;
+    padding: 20px 50px;
+    
+  }
   
-}
-todos los article {
-  padding: 50px 20px;
-  width: 80%;
-  margin: 0;
-  margin-top: 20px;
+  article{
+    padding: 50px 20px;
+    width: 80%;
+    margin: 0;
+    margin-top: 20px;
+
+  }
+
+  #exploracion{
+    background-color: #BBB;
+  }
+
+#horario{
+    background-color: #DDD;
 
 }
-article exploración y listas {
-  background-color: #BBB;
-}
-article exploración {
+  .horas{
+background-color: #444;
 
-}
-article horario{
-  background-color: #DDD;
 }
