@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="stylesheet" type="text/css" href="css.css" />
+  <meta charset="UTF-8">
+  <title>ejercicio CSS</title>
+</head>
+<body>
+
+  <header>
+    <h1>HTML+CSS</h1>
+  </header>
+
+  <section>
+    <article id="exploracion">
+      <h2>Exploración Espacial</h2>
+      <p>La <b>exploración espacial</b> designa los esfuerzos del ser humano en estudiar el espacio y sus astros desde el punto de vista científico y de su explotación económica. Estos esfuerzos pueden involucrar tanto seres humanos viajando en naves espaciales como satélites con recursos de telemetría o sondas teleguiadas enviadas a otros planetas (orbitando o aterrizando en la superficie de estos cuerpos celestes).</p>
+      <p>La ciencia que estudia los vuelos espaciales y la tecnología relacionada con ellos se denomina astronáutica. Las personas que pilotan naves espaciales, o son pasajeros en ellas, se llaman astronautas (en Rusia: cosmonautas; en China: taikonautas). Técnicamente se considera astronauta a todo aquel que emprenda un vuelo suborbital (sin entrar en órbita) u orbital a como mínimo 100 km de altitud (considerado el límite externo de la atmósfera).</p>
+      <p>El cielo siempre ha atraído la atención y los sueños del ser humano. Ya en 1634 se publicó la que se considera primera novela de ciencia ficción, Somnium, de <b>Johannes Kepler</b>, que narra un hipotético viaje a la Luna. Más tarde, en 1865, en una famosa obra de ficción titulada De la Tierra a la Luna, <b>Julio Verne</b> escribió sobre un grupo de hombres que viajó hasta la Luna usando un gigantesco cañón.</p>
+      <p>En Francia, <b>Georges Méliès</b>, uno de los pioneros del cine, tomaba la novela de Verne para crear Le voyage dans la Lune (1902), una de las primeras películas de ciencia ficción en la que describía un increíble viaje a la Luna. En obras como La guerra de los mundos (1898) y El primer hombre en la Luna (1901), de <b>H. G. Wells</b>, también se concibieron ideas de exploración del espacio y de contacto con civilizaciones extraterrestres.</p>
+
+    </article>
+
+    <article id="horario">
+      <h2>Horario</h2>
+      <table border='1'>
+        <tr>
+          <th>Sesión</th>
+          <th>Miércoles</th>
+          <th>Viernes</th>
+        </tr>
+        <tr>
+          <td class="horas">8:15 - 9:10</td>
+          <td>Ingeniería y tecnología</td>
+          <td>Inglés</td>
+          
+        </tr>
+        <tr>
+          <td class="horas">9:10 - 10:05</td>
+          <td>Física</td>
+          <td>Mates</td>
+          
+        </tr>
+        <tr>
+          <td class="horas">10:05 - 11:00</td>
+          <td>DyP</td>
+          <td>Lengua</td>
+        </tr>
+        <tr>
+          <td class="horas">11:00 - 11:30</td>
+          <th id="recreo" colspan="2">DESCANSO</th>
+        </tr>
+        <tr>
+          <td class="horas">11:30 - 12:25</td>
+          <td>Historia de España</td>
+          <td>Historia de la filosofia</td>
+        </tr>
+      
+      <tr>
+        <td class="horas">12:25 - 13:20</td>
+        <td>Mates</td>
+        <td>DyP</td>
+      </tr>
+      <tr>
+        <td class="">13:20 - 14:15</td>
+        <td>Historia de la filosofía</td>
+        <td>Historia de España</td>
+      </tr>
+      </table>
+     
+    </article>
+    
+    
+    <article>
+      <h2>Anidamiento lista</h2>
+<ul>
+  <li>Elemento 1</li>
+  <li>Elemento 2</li>
+  <li>Elemento 3</li>
+  <li>Elemento 4</li>
+  <li>Elemento 5</li>
+  <li>Elemento 6</li>
+</ul>
+<h2>Lista Ordenada por Defecto</h2>
+<ol>
+  <li>Elemento A</li>
+  <li>Elemento B</li>
+  <li>Elemento C</li>
+</ol>
+<h2>Lista Ordenada inversa en romanos</h2>
+<ol type="I">
+  <li>Elemento A</li>
+  <li>Elemento B</li>
+  <li>Elemento C</li>
+</ol>
+<h2>Anidamiento Lista</h2>
+<ol>
+  <li>Elemento A</li>
+  <li>Elemento B</li>
+    <ol>
+    <li>Subelemento 2.1</li>
+    <li>Subelemento 2.2</li>
+    </ol>
+  <li>Elemento C</li>
+    <ul>
+      <li>Subelemento 2.1</li>
+      <li>Subelemento 2.2</li>
+    </ul>
+</ol>
+     
+    </article>
+  </section>
+  
+
+  <footer>
+    <p>© 2024 práctica css de <span>Nombre Apellido1 Apeliido2</span>.</p>
+  </footer>
+
+</body>
+</html>
